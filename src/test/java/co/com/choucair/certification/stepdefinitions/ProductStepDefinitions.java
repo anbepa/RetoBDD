@@ -2,6 +2,7 @@ package co.com.choucair.certification.stepdefinitions;
 
 
 import co.com.choucair.certification.interactions.SearchProduct;
+import co.com.choucair.certification.interactions.Wait;
 import co.com.choucair.certification.models.DataProduct;
 import co.com.choucair.certification.questions.GetName;
 import co.com.choucair.certification.questions.PresenceName;
@@ -58,6 +59,7 @@ public class ProductStepDefinitions {
 
     @Then("^should show the created product on the screen$")
     public void shouldShowTheCreatedProductOnTheScreen() {
+        Wait.aTime(2000);
 
         theActorInTheSpotlight().attemptsTo(
                 Ensure.that(GetName.Product().

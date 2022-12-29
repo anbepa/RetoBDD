@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.com.choucair.certification.runners.ProductRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="50HW017581" time="0.0">
+  <properties/>
+  <system-out><![CDATA[09:43:50.132 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\1904880\Documents\RetoBDD\serenity.properties 
+09:43:50.339 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\1904880\Documents\RetoBDD\serenity.properties 
+09:43:50.340 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\1904880\Documents\RetoBDD\serenity.properties 
+09:43:50.358 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+09:43:50.358 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/driver/chromedriver.exe
+09:43:50.359 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - feature.file.encoding=UTF8
+09:43:50.359 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.report.encoding=UTF8
+09:43:50.359 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.pageLoadTimeout=20000
+09:43:50.359 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.switches=--start-maximized,--incognito,--disable-popup-blocking,--disable-download-notification,--start-maximized,--test-type,--ignore-certificate-errors, --allow-running-insecure-content, --disable-translate, --always-authorize-plugins, --disable-extensions, --no-sandbox, --disable-dev-shm-usage
+09:43:50.360 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.setScriptTimeout=20000
+09:43:50.360 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.console.colors=true
+09:43:50.360 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Demo_Serenity
+09:43:50.360 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=20000
+09:43:50.969 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\1904880\Documents\RetoBDD\serenity.properties 
+09:43:51.110 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\1904880\Documents\RetoBDD\serenity.properties 
+09:43:51.110 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\1904880\Documents\RetoBDD\serenity.properties 
+09:43:51.112 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+09:43:51.113 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/driver/chromedriver.exe
+09:43:51.113 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - feature.file.encoding=UTF8
+09:43:51.113 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.report.encoding=UTF8
+09:43:51.113 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.pageLoadTimeout=20000
+09:43:51.114 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.switches=--start-maximized,--incognito,--disable-popup-blocking,--disable-download-notification,--start-maximized,--test-type,--ignore-certificate-errors, --allow-running-insecure-content, --disable-translate, --always-authorize-plugins, --disable-extensions, --no-sandbox, --disable-dev-shm-usage
+09:43:51.114 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.setScriptTimeout=20000
+09:43:51.114 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.console.colors=true
+09:43:51.114 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Demo_Serenity
+09:43:51.115 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=20000
+09:43:51.153 [Test worker] INFO  - ?[96m
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at https://www.serenitydojo.net                           
+-------------------------------------------------------------------------------------
+?[0m
+09:43:51.161 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@33f69c68
+09:43:51.167 [Test worker] INFO  - Test Suite Started: As test analyst
+09:43:51.262 [Test worker] INFO  - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Create  a new product(as-test-analyst;create--a-new-product)
+-------------------------------------------------------------------
+09:43:51.366 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.x class cucumber.runtime.model.FeatureLoader trying Cucumber 4.8.0 
+09:43:51.366 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.8.x class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+09:44:37.834 [Test worker] INFO  - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Delete  product(as-test-analyst;delete--product)
+-------------------------------------------------------------------
+09:45:30.165 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+09:45:30.621 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+09:45:30.659 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 2 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@23b1aa9
+09:45:30.665 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome As test analyst:Create  a new product
+09:45:30.666 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@23b1aa9: Generating report for test outcome: As test analyst:Create  a new product
+09:45:30.704 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome As test analyst:Delete  product
+09:45:30.704 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@23b1aa9: Generating report for test outcome: As test analyst:Delete  product
+09:45:30.708 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Create  a new product to file C:\Users\1904880\Documents\RetoBDD\target\site\serenity\ff9c4e4ca712af08a2822389c435e1899ed72e84d7eaba3bf44a1d592d786303.json (using temp file C:\Users\1904880\Documents\RetoBDD\target\site\serenity\ff9c4e4ca712af08a2822389c435e1899ed72e84d7eaba3bf44a1d592d786303.jsond2f89c23-0535-4d17-ab59-37ea51fb5a03)
+09:45:30.708 [pool-1-thread-2] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Delete  product to file C:\Users\1904880\Documents\RetoBDD\target\site\serenity\0608c9199b66cc48d93ce83a000ea8a56cf700863bec1eb1daed107694fe81a8.json (using temp file C:\Users\1904880\Documents\RetoBDD\target\site\serenity\0608c9199b66cc48d93ce83a000ea8a56cf700863bec1eb1daed107694fe81a8.json9a3cd2d9-5cb3-4353-9aa7-68242327f861)
+09:45:30.828 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome As test analyst:Delete  product done
+09:45:30.852 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome As test analyst:Create  a new product done
+09:45:30.852 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+09:45:30.853 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 194 ms
+09:45:30.853 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 2 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@372954e1
+09:45:30.867 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome As test analyst:Delete  product
+09:45:30.868 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@372954e1: Generating report for test outcome: As test analyst:Delete  product
+09:45:30.868 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome As test analyst:Create  a new product
+09:45:30.868 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@372954e1: Generating report for test outcome: As test analyst:Create  a new product
+09:45:30.868 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR Delete  product in 0608c9199b66cc48d93ce83a000ea8a56cf700863bec1eb1daed107694fe81a8
+09:45:30.871 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR Create  a new product in ff9c4e4ca712af08a2822389c435e1899ed72e84d7eaba3bf44a1d592d786303
+09:45:30.931 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.x class cucumber.runtime.model.FeatureLoader trying Cucumber 4.8.0 
+09:45:30.933 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.8.x class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+09:45:30.937 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='As test analyst', type='feature' parent = 'null', cardNumber='null'}]
+09:45:30.946 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.x class cucumber.runtime.model.FeatureLoader trying Cucumber 4.8.0 
+09:45:30.947 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.8.x class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+09:45:30.952 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Create  a new product-[]: Optional[Requirement{name='As test analyst', type='feature' parent = 'null', cardNumber='null'}]
+09:45:30.952 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='As test analyst', type='feature' parent = 'null', cardNumber='null'}]
+09:45:30.954 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Delete  product-[]: Optional[Requirement{name='As test analyst', type='feature' parent = 'null', cardNumber='null'}]
+09:45:30.956 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Create  a new product-[]: Optional[Requirement{name='As test analyst', type='feature' parent = 'null', cardNumber='null'}]
+09:45:30.956 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Delete  product-[]: Optional[Requirement{name='As test analyst', type='feature' parent = 'null', cardNumber='null'}]
+09:45:30.998 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Delete  product-[]: Optional[Requirement{name='As test analyst', type='feature' parent = 'null', cardNumber='null'}]
+09:45:30.999 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Delete  product-[]: Optional[Requirement{name='As test analyst', type='feature' parent = 'null', cardNumber='null'}]
+09:45:31.019 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Create  a new product-[]: Optional[Requirement{name='As test analyst', type='feature' parent = 'null', cardNumber='null'}]
+09:45:31.021 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Create  a new product-[]: Optional[Requirement{name='As test analyst', type='feature' parent = 'null', cardNumber='null'}]
+09:45:31.278 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in ff9c4e4ca712af08a2822389c435e1899ed72e84d7eaba3bf44a1d592d786303_screenshots.html
+09:45:31.278 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 0608c9199b66cc48d93ce83a000ea8a56cf700863bec1eb1daed107694fe81a8_screenshots.html
+09:45:32.321 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report ff9c4e4ca712af08a2822389c435e1899ed72e84d7eaba3bf44a1d592d786303_screenshots.html in 1043 ms
+09:45:32.323 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR As test analyst:Create  a new product in ff9c4e4ca712af08a2822389c435e1899ed72e84d7eaba3bf44a1d592d786303.html in directory C:\Users\1904880\Documents\RetoBDD\target\site\serenity  
+09:45:32.330 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 0608c9199b66cc48d93ce83a000ea8a56cf700863bec1eb1daed107694fe81a8_screenshots.html in 1052 ms
+09:45:32.333 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR As test analyst:Delete  product in 0608c9199b66cc48d93ce83a000ea8a56cf700863bec1eb1daed107694fe81a8.html in directory C:\Users\1904880\Documents\RetoBDD\target\site\serenity  
+09:45:32.337 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 0608c9199b66cc48d93ce83a000ea8a56cf700863bec1eb1daed107694fe81a8.html
+09:45:33.814 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 0608c9199b66cc48d93ce83a000ea8a56cf700863bec1eb1daed107694fe81a8.html in 1477 ms
+09:45:33.814 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome As test analyst:Delete  product done
+09:45:34.230 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in ff9c4e4ca712af08a2822389c435e1899ed72e84d7eaba3bf44a1d592d786303.html
+09:45:35.885 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report ff9c4e4ca712af08a2822389c435e1899ed72e84d7eaba3bf44a1d592d786303.html in 1655 ms
+09:45:35.887 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome As test analyst:Create  a new product done
+09:45:35.888 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+09:45:35.888 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 5035 ms
+09:45:36.255 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+09:45:36.255 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+
+2 Scenarios (?[32m2 passed?[0m)
+7 Steps (?[32m7 passed?[0m)
+1m39.422s
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

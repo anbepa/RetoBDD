@@ -8,11 +8,11 @@ import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 
 import static co.com.choucair.certification.userinterfaces.LoginPage.BUTTON_SIGN_IN;
+import static co.com.choucair.certification.userinterfaces.ProductPage.SAVE_NEW_PRODUCT_BUTTON;
 import static co.com.choucair.certification.userinterfaces.ProductPage.SEARCH_PRODUCT_NAME_FIELD;
 import static co.com.choucair.certification.utils.Constants.*;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
-import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isPresent;
-import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
+import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.*;
 
 public class SearchProduct implements Interaction {
     public static SearchProduct forName() {
@@ -22,7 +22,7 @@ public class SearchProduct implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-
+                WaitUntil.the(SEARCH_PRODUCT_NAME_FIELD, isVisible()),
                 Enter.theValue(PRODUCT_NAME).into(SEARCH_PRODUCT_NAME_FIELD)
         );
     }
