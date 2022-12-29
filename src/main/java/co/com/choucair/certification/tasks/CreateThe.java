@@ -9,7 +9,6 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.JavaScriptClick;
 import net.serenitybdd.screenplay.waits.WaitUntil;
-
 import java.util.List;
 import static co.com.choucair.certification.userinterfaces.ProductPage.*;
 import static net.serenitybdd.screenplay.Tasks.instrumented;

@@ -10,7 +10,7 @@ import static co.com.choucair.certification.userinterfaces.ProductPage.PRODUCT_N
 
 public class GetName implements Question<String> {
 
-    public static Question<String> Product(){
+    public static Question<String> product(){
      return new GetName();
  }
 

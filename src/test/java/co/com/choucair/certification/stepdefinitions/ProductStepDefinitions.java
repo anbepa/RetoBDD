@@ -60,7 +60,7 @@ public class ProductStepDefinitions {
     public void shouldShowTheCreatedProductOnTheScreen() {
         Wait.aTime(2000);
         theActorInTheSpotlight().attemptsTo(
-                Ensure.that(GetName.Product().
+                Ensure.that(GetName.product().
                         answeredBy(theActorInTheSpotlight())).
                         isEqualTo(theActorInTheSpotlight().recall("textProductName"))
         );
@@ -83,7 +83,7 @@ public class ProductStepDefinitions {
     @Then("^not should show the created product on the screen$")
     public void notShouldShowTheCreatedProductOnTheScreen() {
         theActorInTheSpotlight().attemptsTo(
-                Ensure.that(PresenceName.Product().
+                Ensure.that(PresenceName.product().
                                 answeredBy(theActorInTheSpotlight())).
                         isFalse()
         );

@@ -12,7 +12,7 @@ import static co.com.choucair.certification.userinterfaces.ProductPage.PRODUCT_N
 
 public class PresenceName implements Question<Boolean> {
 
-    public static Question<Boolean> Product(){
+    public static Question<Boolean> product(){
      return new PresenceName();
  }
 
