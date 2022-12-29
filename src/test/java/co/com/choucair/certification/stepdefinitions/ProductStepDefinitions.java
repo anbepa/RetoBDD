@@ -1,15 +1,11 @@
 package co.com.choucair.certification.stepdefinitions;
 
 
-import co.com.choucair.certification.interactions.SearchProduct;
 import co.com.choucair.certification.interactions.Wait;
 import co.com.choucair.certification.models.DataProduct;
 import co.com.choucair.certification.questions.GetName;
 import co.com.choucair.certification.questions.PresenceName;
-import co.com.choucair.certification.tasks.CreateThe;
-import co.com.choucair.certification.tasks.DeleteThe;
-import co.com.choucair.certification.tasks.GoTo;
-import co.com.choucair.certification.tasks.LoginTo;
+import co.com.choucair.certification.tasks.*;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -51,7 +47,10 @@ public class ProductStepDefinitions {
     @When("^you fill out the form whit$")
     public void youFillOutTheFormWhit(List<DataProduct> dataProducts) {
         theActorInTheSpotlight().attemptsTo(
-                CreateThe.newProduct(dataProducts)
+                CreateThe.newProduct(dataProducts),
+                Wait.aTime(2000),
+                SearchProduct.forName()
+
 
         );
 

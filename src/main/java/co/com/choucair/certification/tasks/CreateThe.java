@@ -1,8 +1,7 @@
 package co.com.choucair.certification.tasks;
 
 
-import co.com.choucair.certification.interactions.SearchProduct;
-import co.com.choucair.certification.interactions.Wait;
+
 import co.com.choucair.certification.models.DataProduct;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
@@ -40,11 +39,7 @@ public class CreateThe implements Task {
                 Enter.theValue(dataProducts.get(0).getUnitsOnOrder()).into(UNITS_ORDER_FIELD),
                 Enter.theValue(dataProducts.get(0).getReorderLevel()).into(REORDER_LEVEL_FIELD),
                 WaitUntil.the(SAVE_NEW_PRODUCT_BUTTON, isEnabled()),
-                JavaScriptClick.on(SAVE_NEW_PRODUCT_BUTTON),
-                Wait.aTime(2000),
-                SearchProduct.forName()
-
-
+                JavaScriptClick.on(SAVE_NEW_PRODUCT_BUTTON)
 
         );
         actor.remember("textProductName",dataProducts.get(0).getProductName());
