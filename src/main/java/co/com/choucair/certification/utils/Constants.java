@@ -6,4 +6,7 @@ public class Constants {
     public static final String PRODUCT_NAME = "PruebaAndres";
     public static final String ADMINISTRATOR = "Administrator";
     public static final String ENVIRONMENT = "https://serenity.is/demo/";
+
+    private Constants(){}
+
 }
