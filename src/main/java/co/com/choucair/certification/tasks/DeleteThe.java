@@ -2,6 +2,7 @@ package co.com.choucair.certification.tasks;
 
 
 
+import co.com.choucair.certification.interactions.Wait;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
@@ -30,7 +31,8 @@ public class DeleteThe implements Task {
                 WaitUntil.the(PRODUCT_NAME, isVisible()),
                 Click.on(PRODUCT_NAME),
                 JavaScriptClick.on(DELETE_NEW_PRODUCT_BUTTON),
-                Click.on(DELETE_NEW_PRODUCT_CONFIRMING_BUTTON)
+                Click.on(DELETE_NEW_PRODUCT_CONFIRMING_BUTTON),
+                Wait.aTime(1000)
 
 
         );
