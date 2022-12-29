@@ -1,1 +1,10 @@
 /target
+# Compiled class file
+*.class
+# Serenity-BDD
+*/target/
+
+# Intellij
+.idea/
+*/.idea/
+*/out/
