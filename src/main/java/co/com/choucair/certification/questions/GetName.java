@@ -22,7 +22,7 @@ public class GetName implements Question<String> {
     @Override
     public String answeredBy(Actor actor) {
 
-        WaitUntil.the(PRODUCT_NAME_TEXT, isEnabled());
+        Wait.aTime(2000);
         return Text.of(PRODUCT_NAME_TEXT).viewedBy(actor).asString().trim();
     }
 }

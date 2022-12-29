@@ -60,7 +60,6 @@ public class ProductStepDefinitions {
     @Then("^should show the created product on the screen$")
     public void shouldShowTheCreatedProductOnTheScreen() {
         Wait.aTime(2000);
-
         theActorInTheSpotlight().attemptsTo(
                 Ensure.that(GetName.Product().
                         answeredBy(theActorInTheSpotlight())).

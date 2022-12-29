@@ -22,7 +22,7 @@ public class SearchProduct implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                WaitUntil.the(SEARCH_PRODUCT_NAME_FIELD, isVisible()),
+                Wait.aTime(2000),
                 Enter.theValue(PRODUCT_NAME).into(SEARCH_PRODUCT_NAME_FIELD)
         );
     }
